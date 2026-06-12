@@ -5,7 +5,7 @@ import { ExamPage } from './pages/ExamPage'
 import { ResultPage } from './pages/ResultPage'
 import { PracticePage } from './pages/PracticePage'
 import { WrongPage } from './pages/WrongPage'
-import { HistoryPage } from './pages/HistoryPage'
+import { ReportPage } from './pages/ReportPage'
 
 export const router = createHashRouter([
   {
@@ -17,7 +17,8 @@ export const router = createHashRouter([
       { path: 'result', element: <ResultPage /> },
       { path: 'practice/:stage', element: <PracticePage /> },
       { path: 'wrong', element: <WrongPage /> },
-      { path: 'history', element: <HistoryPage /> },
+      { path: 'history', element: <ReportPage /> },
+      { path: 'report', element: <ReportPage /> },
     ],
   },
 ])

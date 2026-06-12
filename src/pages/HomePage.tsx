@@ -67,7 +67,7 @@ export function HomePage() {
           className="bg-white rounded-2xl border border-slate-100 p-4 text-center hover:border-brand transition"
         >
           <div className="text-2xl">📊</div>
-          <div className="text-sm font-bold mt-1">成績履歴 / 成绩</div>
+          <div className="text-sm font-bold mt-1">個人報表 / 个人报表</div>
           <div className="text-xs text-slate-400 mt-0.5">{history.length} 回</div>
         </Link>
       </div>
