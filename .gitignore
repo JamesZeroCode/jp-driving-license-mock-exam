@@ -1,0 +1,7 @@
+node_modules/
+dist/
+__*.txt
+__*.log
+__persist_probe.txt
+.DS_Store
+*Zone.Identifier
